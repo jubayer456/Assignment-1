@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    background-color: #f2f7f6;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+    font-family: 'Luxurious Roman', cursive;
+}
+h2{
+    font-size: 2.3rem;
+}
+p{
+    line-height: 2;
+    font-weight: 500;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    text-align: center;
+    width: 5%;
+    color: gray;
+    padding: 20px 0;
+}
+.middle-container h2{
+    text-align: center;
+    font-size: 2.3rem;
+}
+.top-border-color{
+    border-left: 5px solid;
+    border-image: linear-gradient(red, orange) 30;
+    border-image-slice: 1;
+    padding-left: 5px;
+}
+.top-container{
+     display: flex;
+    padding-bottom: 18%;
+    padding: 120px 120px 90px 120px;
+}
+.mission-container{ 
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.focused{
+    width:45%;
+    padding-right: 5%;
+    padding-top: 80px;
+    
+}
+.profile{
+    width:45%;
+    padding-left: 5%;
+    
+}
+.develop-img{
+    width:45%;
+    padding-right: 5%;
+    
+}
+.develop-img img{
+    width: 100%;
+}
+.develop-details{
+    width:45%;
+    padding-left: 5%;
+    padding-top: 40px;
+    
+}
+.profile img{
+    width: 100%;
+}
+.orange{
+    color: orange;
+}
+.btn{
+    padding: 10px 20px;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(233, 142, 142),tomato);
+    border-radius: 5px;
+    margin-top: 100px;
+    
+}
+.vission{
+    width: 26%;
+    margin: 2%;
+    padding: 20px;
+    border-radius: 10px;
+}
+#mission-back{
+    background-color:#e4eceb;
+}
+
+#vission-back{
+    background-color: #f3eded;
+}
+#goal-back{
+    background-color: #e9e1d4;
+}
+.vission img{
+    width:50%;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px 0;
+    text-align: center;
+}
+.footer p{
+    font-size: 10px;
+}
+.contact{
+    text-align: center;
+    padding-bottom: 60px;
+    width: 50%;
+    margin: auto;
+}
+.btn:hover{
+    color: #e9e1d4;
+    background-image: linear-gradient(rgb(252, 94, 94),rgb(250, 157, 141));
+}
