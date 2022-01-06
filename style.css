@@ -36,7 +36,7 @@ hr{
 .top-container{
      display: flex;
     padding-bottom: 18%;
-    padding: 120px 120px 90px 120px;
+    padding: 120px 120px 90px 120px; 
 }
 .mission-container{ 
     display: flex;
@@ -81,6 +81,7 @@ hr{
     background-image: linear-gradient(rgb(233, 142, 142),tomato);
     border-radius: 5px;
     border: 0;
+    color: black;
     
 }
 .vission{
